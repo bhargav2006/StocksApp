@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/stocksapp/static/css/main.800b2fb1.css",
+    "main.js": "/stocksapp/static/js/main.6a50e7b0.js",
+    "static/js/453.97bc804a.chunk.js": "/stocksapp/static/js/453.97bc804a.chunk.js",
+    "index.html": "/stocksapp/index.html",
+    "main.800b2fb1.css.map": "/stocksapp/static/css/main.800b2fb1.css.map",
+    "main.6a50e7b0.js.map": "/stocksapp/static/js/main.6a50e7b0.js.map",
+    "453.97bc804a.chunk.js.map": "/stocksapp/static/js/453.97bc804a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.800b2fb1.css",
+    "static/js/main.6a50e7b0.js"
+  ]
+}
