@@ -1,0 +1,53 @@
+/* Ticker Container */
+.ticker-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+/* Ticker Wrapper */
+.ticker-wrapper {
+  display: flex;
+  animation: scroll 30s linear infinite;
+}
+
+/* Ticker Content */
+.ticker-content {
+  display: flex;
+  flex-shrink: 0;
+}
+
+/* Individual Ticker Items */
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 2rem;
+  white-space: nowrap;
+}
+
+/* Keyframe Animation for Continuous Scrolling */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause animation on hover for better UX */
+.ticker-container:hover .ticker-wrapper {
+  animation-play-state: paused;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ticker-wrapper {
+    animation-duration: 20s;
+  }
+
+  .ticker-item {
+    margin-right: 1.5rem;
+    font-size: 0.9rem;
+  }
+}
